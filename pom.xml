@@ -223,7 +223,7 @@
         <repository>
             <id>MuleRepository</id>
             <name>MuleRepository</name>
-            <url>https://repository.mulesoft.org/nexus-ee/content/repositories/releases-ee/</url>
+            <url>https://repository-master.mulesoft.org/nexus/content/groups/public/</url>
             <layout>default</layout>
             <releases>
                 <enabled>true</enabled>
@@ -239,7 +239,7 @@
 			<name>mulesoft release repository</name>
 			<layout>default</layout>
 			<!--<url>http://repository.mulesoft.org/releases/</url>-->
-			 <url>https://repository.mulesoft.org/nexus-ee/content/repositories/releases-ee/</url>
+			 <url>https://repository-master.mulesoft.org/nexus/content/groups/public/</url>
 			<snapshots>
 				<enabled>false</enabled>
 			</snapshots>
