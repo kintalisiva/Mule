@@ -205,7 +205,7 @@
 		</dependency>
 	</dependencies>
 
-	<repositories>
+	<!--repositories>
 		<repository>
 			<id>Central</id>
 			<name>Central</name>
@@ -218,13 +218,28 @@
 			<url>http://repository.mulesoft.org/releases/</url>
 			<layout>default</layout>
 		</repository>
-	</repositories>
+	</repositories-->
+	 <repositories>
+        <repository>
+            <id>MuleRepository</id>
+            <name>MuleRepository</name>
+            <url>https://repository.mulesoft.org/nexus-ee/content/repositories/releases-ee/</url>
+            <layout>default</layout>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+        </repository>
+    </repositories>
 	<pluginRepositories>
 		<pluginRepository>
 			<id>mulesoft-release</id>
 			<name>mulesoft release repository</name>
 			<layout>default</layout>
-			<url>http://repository.mulesoft.org/releases/</url>
+			<!--<url>http://repository.mulesoft.org/releases/</url>-->
+			 <url>https://repository.mulesoft.org/nexus-ee/content/repositories/releases-ee/</url>
 			<snapshots>
 				<enabled>false</enabled>
 			</snapshots>
