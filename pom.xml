@@ -82,8 +82,8 @@
 				<configuration>
 					<deploymentType>cloudhub</deploymentType>
 					<muleVersion>3.8.1</muleVersion>
-					<username></username>
-					<password></password>
+					<username>skintali1</username>
+					<password>Siva@123</password>
 					<applicationName>mulejenkinstest</applicationName>
 					<redeploy>true</redeploy>
 					<environment>Sandbox</environment>
